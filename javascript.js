@@ -72,8 +72,8 @@ cero.onclick = (e) => {
 
 suma.onclick = (e) => {
     a = pantalla.textContent
-    op = '+'
     limpiar()
+    op = '+'
 }
 
 resta.onclick = (e) => {
@@ -97,6 +97,10 @@ multiplicacion.onclick = (e) => {
 igual.onclick = (e) => {
     b = pantalla.textContent
     resolver(op)
+}
+
+clear.onclick = (e) => {
+    limpiar()
 }
 
 
